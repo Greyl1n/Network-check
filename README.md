@@ -50,16 +50,4 @@ The app uses `psutil.net_io_counters(pernic=True)` to measure cumulative bytes s
 
 Data is buffered for 60 data points and plotted in real-time. When logging is active, each reading is appended to the CSV file as `Timestamp, Upload_Mbps, Download_Mbps`.
 
-## Project Structure
-
-```
-Network_Checker/
-├── Network_check_V4.py    # Main application
-├── Network_check_V4.exe   # Standalone executable
-├── archive/
-│   ├── Network_check.py       # V1
-│   ├── Network_check_V2.py    # V2
-│   ├── Network_check_V3.py    # V3
-│   └── Network_check_V3.exe   # V3 Executable
-└── README.md
 ```
