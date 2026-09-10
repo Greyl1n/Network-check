@@ -43,9 +43,6 @@ Run the Python application:
 ```bash
 python Network_check_V5.py
 ```
-Or launch the standalone executable:
-```bash
-Network_check_V5.exe
 ```
 
 ### Basic Workflow
@@ -60,7 +57,6 @@ Network_check_V5.exe
 ```
 Network_Checker/
 ├── Network_check_V5.py    # Current main application (V5)
-├── Network_check_V5.exe   # Standalone executable (V5)
 ├── README.md              # Project documentation
 └── archive/               # Historical versions
     ├── Network_check.py       # V1
